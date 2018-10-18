@@ -1,3 +1,17 @@
+body{
+  font-family: Helvetica;
+  padding: 30px;
+}
+
+td{
+  padding: 15px;
+}
+
+th{
+  background: #005839;
+  color: #fff;
+}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
