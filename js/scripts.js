@@ -38,7 +38,7 @@ $(document).ready(function(){
         year = $(this).find('YearAwarded').text();
         amount = $(this).find('OriginalAmount').text();
         description = $(this).find('ProjectDesc').text();
-        if($(this).find('ProjectDesc').text() = 'None'){
+        if(description == 'None'){
 
         }
         else {
