@@ -38,12 +38,17 @@ $(document).ready(function(){
         year = $(this).find('YearAwarded').text();
         amount = $(this).find('OriginalAmount').text();
         description = $(this).find('ProjectDesc').text();
+        if($(this).find('ProjectDesc').text() = 'None'){
+
+        }
+        else {
         html += '<tr>';
         html +=   '<td>' + title + '</td>';
         html +=   '<td>' + year + '</td>';
         html +=   '<td>' + amount + '</td>';
         html +=   '<td>' + description + '</td>';
         html += '</tr>';
+        }
       });
 
       $('#results').append(html);
